@@ -9,7 +9,7 @@ const PageIntro = () => {
     <section className="page-intro">  
       <Swiper navigation effect="fade" className="swiper-wrapper">
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-1.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner/banner1.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Sale of the summer collection</h2>
@@ -20,7 +20,27 @@ const PageIntro = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner/banner2.jpg')" }}>
+            <div className="container">
+              <div className="page-intro__slide__content">
+                <h2>Make your house into a home</h2>
+                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner/banner3.jpg')" }}>
+            <div className="container">
+              <div className="page-intro__slide__content">
+                <h2>Make your house into a home</h2>
+                <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner/banner4.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Make your house into a home</h2>
@@ -37,24 +57,24 @@ const PageIntro = () => {
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Free Shipping</h4>
-                <p>On purchases over $199</p>
+                <h4>Free Ship</h4>
+                <p>Với đơn hàng từ 500k</p>
               </div>
             </li>
             
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>99% Satisfied Customers</h4>
-                <p>Our clients' opinions speak for themselves</p>
+                <h4>Giao hàng toàn quốc</h4>
+                <p>Có mặt 63 tỉnh thành</p>
               </div>
             </li>
             
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Originality Guaranteed</h4>
-                <p>30 days warranty for each product from our store</p>
+                <h4>Bảo hành</h4>
+                <p>Bảo hành 1 đổi 1 trong vòng 1 tuần</p>
               </div>
             </li>
           </ul>

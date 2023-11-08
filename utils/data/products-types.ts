@@ -1,22 +1,32 @@
 export const productsTypes = [
   {
     id: '1',
-    name: 'T-Shirts',
+    name: 'Senda',
     count: '172',
   },
   {
     id: '2',
-    name: 'Sweatshirts',
+    name: 'Senda decor',
     count: '131',
   },
   {
     id: '3',
-    name: 'Tank Tops',
+    name: 'Chậu hoa decor',
     count: '56',
   },
   {
     id: '4',
-    name: 'Dress shirts',
+    name: 'Tượng hoa decor',
+    count: '8',
+  },
+  {
+    id: '5',
+    name: 'Combo 500k',
+    count: '8',
+  },
+  {
+    id: '6',
+    name: 'Combo 1000',
     count: '8',
   },
 ];
