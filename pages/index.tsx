@@ -2,6 +2,8 @@ import Layout from '../layouts/Main';
 import PageIntro from '../components/page-intro';
 // import ProductsFeatured from '../components/products-featured';
 import Footer from '../components/footer';
+import ProductsFilter from "../components/products-filter";
+import ProductsContent from "../components/products-content";
 // import Subscribe from '../components/subscribe';
 
 const IndexPage = () => {
@@ -9,30 +11,37 @@ const IndexPage = () => {
     <Layout>
       <PageIntro />
 
-      {/*<section className="featured">*/}
-      {/*  <div className="container">*/}
-      {/*    <article style={{backgroundImage: 'url(/images/featured-1.jpg)'}} className="featured-item featured-item-large">*/}
-      {/*      <div className="featured-item__content">*/}
-      {/*        <h3>New arrivals are now in!</h3>*/}
-      {/*        <a href="#" className="btn btn--rounded">Show Collection</a>*/}
-      {/*      </div>*/}
-      {/*    </article>*/}
-      {/*    */}
-      {/*    <article style={{backgroundImage: 'url(/images/featured-2.jpg)'}} className="featured-item featured-item-small-first">*/}
-      {/*      <div className="featured-item__content">*/}
-      {/*        <h3>Basic t-shirts $29,99</h3>*/}
-      {/*        <a href="#" className="btn btn--rounded">More details</a>*/}
-      {/*      </div>*/}
-      {/*    </article>*/}
-      {/*    */}
-      {/*    <article style={{backgroundImage: 'url(/images/featured-3.jpg)'}} className="featured-item featured-item-small">*/}
-      {/*      <div className="featured-item__content">*/}
-      {/*        <h3>Sale this summer</h3>*/}
-      {/*        <a href="#" className="btn btn--rounded">VIEW ALL</a>*/}
-      {/*      </div>*/}
-      {/*    </article>*/}
-      {/*  </div>*/}
-      {/*</section>*/}
+      <section className="featured">
+        <div className="container">
+          <article style={{backgroundImage: 'url(/images/banner/banner5.jpg)'}} className="featured-item featured-item-large">
+            <div className="featured-item__content">
+              <h3>Giở hoa sen đá</h3>
+              <a href="#" className="btn btn--rounded">Show Collection</a>
+            </div>
+          </article>
+
+          <article style={{backgroundImage: 'url(/images/banner/banner6.jpg)'}} className="featured-item featured-item-small-first">
+            <div className="featured-item__content">
+              <h3>Combo Decor </h3>
+              <a href="#" className="btn btn--rounded">More details</a>
+            </div>
+          </article>
+
+          <article style={{backgroundImage: 'url(/images/banner/banner7.jpg)'}} className="featured-item featured-item-small">
+            <div className="featured-item__content">
+              <h3>Liu tiu diu </h3>
+              <a href="#" className="btn btn--rounded">VIEW ALL</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+        <section className="products-page">
+            <div className="container">
+                <ProductsFilter />
+                <ProductsContent />
+            </div>
+        </section>
 
       {/*<section className="section">*/}
       {/*  <div className="container">*/}
