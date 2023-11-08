@@ -291,7 +291,7 @@ h1,h2,h3,h4,h5 {
     align-items: center;
   }
   .site-logo {
-    color: #FFF;
+    color: var(--color-primary);
   }
   .site-header__btn-avatar {
     display: none;
@@ -362,14 +362,14 @@ h1,h2,h3,h4,h5 {
       font-size: 15px;
       font-weight: 500;
       width: 100%;
-      color: #000;
+      color: var(--color-primary);
       display: block;
       text-align: left;
       padding: 15px 18px;
       @include breakpoint(tablet-lg) {
         width: auto;
         padding: 0;
-        color: #FFF;
+        color: var(--color-primary);
         margin-right: 76px;
         display: inline-block;
         font-size: 14px;
@@ -377,24 +377,24 @@ h1,h2,h3,h4,h5 {
     }
   }
   &.site-header--fixed {
-    border-bottom: 1px solid #E5E5E5;
-    background-color: #FFF;
+    border-bottom: 3px solid var(--color-primary);
+    background-color: var(--bg-primary);
     .btn-hamburger {
       &:before, &:after, span {
         background-color: #000;
       }
     }
     a, i {
-      color: #000;
+      color: var(--color-primary);
     }
     button {
-      color: #000;
+      color: var(--color-primary);
       i {
-        color: #000;
+        color: var(--color-primary);
       }
     }
     .site-logo {
-      color: #000;
+      color: var(--color-primary);
     }
   }
   .search-form-wrapper {
@@ -557,7 +557,7 @@ h1,h2,h3,h4,h5 {
       display: block;
     }
     &:before {
-      background: #FFF;
+      background: var(--bg-primary);
       content: '';
       left: 0;
       bottom: 0;
@@ -652,7 +652,7 @@ h1,h2,h3,h4,h5 {
       }
       h2 {
         font-size: 36px;
-        color: #FFF;
+        color: var(--color-primary);
         font-weight: 600;
         line-height: 120%;
         margin-bottom: 45px;
@@ -684,7 +684,9 @@ h1,h2,h3,h4,h5 {
 
 .featured {
   padding: 35px 0 62px 0;
+  background-color: var(--bg-primary);
   @include breakpoint(phone) {
+    background-color: var(--bg-primary);
     padding: 70px 0 92px 0;
   }
   .container {
